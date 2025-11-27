@@ -1,0 +1,22 @@
+const database = 'mekanbul'; use(database); db.venues.insertOne
+({
+    "name": "SDÜ Spor Salonu",
+  "address": "SDÜ Kapalı Spor Salonu",
+  "rating": 5,
+  "foodanddrink": ["spor", "fitness"],
+  "coordinates": [37.83398, 30.52290],
+  "hours": [
+    {
+      "days": "Pazartesi-Cuma",
+      "open": "08:00",
+      "close": "22:00",
+      "isClosed": false
+    },
+    {
+      "days": "Cumartesi-Pazar",
+      "open": "09:00",
+      "close": "21:00",
+      "isClosed": false
+    }
+  ]
+});
